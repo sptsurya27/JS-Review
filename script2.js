@@ -31,15 +31,16 @@ numResult = num1 / num2;
 
 //Operators, Boolean Logic, and Conditionals
 
+var num5 = 5;
+let num4 = 4;
 
-
-if(x = y) {
+if(num5 === num4) {
     console.log("It's true");
 } else {
     console.log("It's False");
 }
 
-if(x > y) {
+if(num5 > num4) {
     console.log("It's more");
 } else {
     console.log("It's less!");
@@ -91,6 +92,3 @@ for (var i=1; i <= 20; i++)
         console.log("Buzz");
     else
         console.log(i);
-
-
-
