@@ -1,10 +1,10 @@
 //Variables
 var firstName;
-firstName = "Suryameet"; 
+firstName = 'Suryameet'; 
 var lastName;
-lastName = "Singh";
+lastName = 'Singh';
 var age;
-age = 23;
+age = '23';
 
 
 //String Concatenation
