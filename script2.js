@@ -8,13 +8,17 @@ age = '23';
 
 
 //String Concatenation
+// var fullName = firstName.concat(" ", LastName);
 var fullName;
 fullName = firstName + " " + lastName;
 console.log(fullName);
 
+
 //Expressions & Operators
 var num1 = 10;
 var num2 = 5;
+var numberResult = '';
+
 numResult = num1 + num2;
 numResult = num1 - num2;
 numResult = num1 * num2;
@@ -69,22 +73,3 @@ var res = fullName.toUpperCase();
 
 //DOM
 //The Document Object Model is a programming API for documents
-
-//Git and Github
-
-
-//Bonus - Fizz Buzz
-
-for (var i=1; i <= 20; i++)
-{
-    if (i % 15 == 0)
-        console.log("FizzBuzz");
-    else if (i % 3 == 0)
-        console.log("Fizz");
-    else if (i % 5 == 0)
-        console.log("Buzz");
-    else
-        console.log(i);
-
-
-
